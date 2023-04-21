@@ -214,7 +214,7 @@
         // tampilkan alert
         myAlert.classList.toggle('d-none');
         //reset
-        form.reset();
+
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {
           // tampilkan tombol loading, hilangkan tombol kirim
@@ -223,6 +223,7 @@
             console.log('Success!', response);
           })
           .catch(error => console.error('Error!', error.message))
+          form.reset();
       });
 
 
