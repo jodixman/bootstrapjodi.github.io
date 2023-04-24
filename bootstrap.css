@@ -1,3 +1,5 @@
+
+
 .jumbotron{
     padding-top: 6rem;
     background-color: #e2edff;
@@ -15,4 +17,12 @@
 .bi-heart{
     color: red;
     
+}
+
+.galery-img{
+    width: 100%;
+}
+
+#galery .row > *{
+    padding: 0;
 }
